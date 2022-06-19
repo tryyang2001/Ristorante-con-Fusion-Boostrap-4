@@ -1,0 +1,67 @@
+#reserveModal .modal-body {
+  background-color: #e0ceff;
+}
+
+#reserveModal .modal-header {
+  background-color: #6505ff;
+  color: #fffaf0;
+}
+
+#loginModal .modal-body {
+  background-color: #e0ceff;
+}
+
+#loginModal .modal-header {
+  background-color: #6505ff;
+  color: #fffaf0;
+}
+body {
+  background-color: rgb(245, 237, 237);
+  font-size: 1.1rem;
+}
+.row-header {
+  margin-top: 5%;
+  padding: 0 auto;
+  color: #0f0f0f;
+  background-color: #faebd7;
+  background: linear-gradient(to right, #faebd7, #ffffff, #faebd7);
+  border: #000000 groove 3px;
+  border-radius: 2%;
+  margin-bottom: 1%;
+  height: 10%;
+}
+.jumbotron {
+  background-color: rgba(138, 43, 226, 0.5);
+  background: url("../img/deliciousfood.webp");
+  background-size: cover;
+}
+.row-content {
+  padding: 2% 1%;
+  margin: 4% 1%;
+}
+.index-h2 {
+  text-transform: uppercase;
+}
+.index-h3 {
+  border-style: double;
+  padding: 2%;
+  text-align: center;
+  background-color: lightyellow;
+}
+.footer {
+  border-top: solid 1px;
+  background: rgb(109, 255, 109, 0.5);
+  padding: 2% 1%;
+}
+.carousel {
+  background-color: #6505ff;
+}
+.carousel-item {
+  height: 300px;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-height: 300px;
+}

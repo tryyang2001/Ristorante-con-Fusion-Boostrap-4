@@ -1,0 +1,21 @@
+$clr-modalHeaderText: #fffaf0;
+$bg-modalHeader: #6505ff;
+$bg-modalBody: #e0ceff;
+
+@mixin modal-style() {
+  .modal-body {
+    background-color: $bg-modalBody;
+  }
+  .modal-header {
+    background-color: $bg-modalHeader;
+    color: $clr-modalHeaderText;
+  }
+}
+
+#reserveModal {
+  @include modal-style();
+}
+
+#loginModal {
+  @include modal-style();
+}
